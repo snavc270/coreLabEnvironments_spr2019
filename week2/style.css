@@ -1,0 +1,30 @@
+p{
+	font-family: 'Fahkwang', sans-serif;
+	font-size: 36pt; 
+	color: rgb(200, 100, 100);
+}
+
+.options{
+	font-size: 20pt;
+}
+
+/*.narrative{
+	background-color: pink; 
+	padding: 5px 10px 5px 10px; 
+	margin-left: 5px; 
+	width: 75vw;
+}
+
+.selections{
+    position: relative;
+    margin-left: 32vw;
+    margin-top: -20vh;
+}*/
+
+#attack{
+	color: green;
+}
+
+#peace{
+	color: blue;
+}
