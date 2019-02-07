@@ -8,7 +8,7 @@ p{
 	font-size: 20pt;
 }
 
-/*.narrative{
+.narrative{
 	background-color: pink; 
 	padding: 5px 10px 5px 10px; 
 	margin-left: 5px; 
@@ -17,9 +17,9 @@ p{
 
 .selections{
     position: relative;
-    margin-left: 32vw;
-    margin-top: -20vh;
-}*/
+/*    margin-left: 32vw;
+    margin-top: -20vh;*/
+}
 
 #attack{
 	color: green;

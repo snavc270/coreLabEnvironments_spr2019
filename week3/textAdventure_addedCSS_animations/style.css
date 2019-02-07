@@ -1,0 +1,73 @@
+p{
+	font-family: 'Fahkwang', sans-serif;
+	font-size: 36pt; 
+	color: rgb(200, 100, 100);
+}
+
+.options{
+	font-size: 20pt;
+}
+
+.narrative{
+	background-color: pink; 
+	padding: 5px 10px 5px 10px; 
+	margin-left: 5px; 
+	width: 75vw;
+}
+
+.selections{
+    position: relative;
+/*    margin-left: 32vw;
+    margin-top: -20vh;*/
+}
+
+#alien{
+	position:relative;
+	display: inline;
+}
+#attack{
+	color: green;
+	background-color: blue;
+	width:75px;
+	transition: width 1s ease-in .5s; 
+}
+#attack:hover{
+	width:200px;
+}
+
+#peace{
+	color: blue;
+	background-color: yellow;
+}
+#peace:hover{
+	animation-name: colorChange; 
+	animation-duration: 4s; 
+	animation-iteration-count: 1; 
+}
+
+@keyframes colorChange{
+	0% {
+		background-color: yellow;
+	}
+	25%{
+		background-color: blue;
+	}
+	75%{
+		background-color: purple; 
+	}
+	100%{
+		background-color: yellow;
+	}
+}
+
+@media (max-width: 500px){
+	.narrative{
+		background-color: pink !important;
+	}
+}
+
+@media (max-width: 1000px){
+	.narrative{
+		background-color: purple !important;
+	}
+}
