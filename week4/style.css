@@ -1,0 +1,57 @@
+.grid1{
+	display: grid;
+/*	width: 100px;
+	height: 200px;*/
+
+	
+	width: 20%; 
+}
+
+/*able to compound selectors with our css 
+here we are selecting images only within the grid class*/
+
+.box img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /*crops the image while maintaining proportions*/
+}
+
+.grid2{
+	display: grid;
+	/*grid-template-columns: 50% 50%; created two columns 
+	grid-template-rows: 500px 500px;*/
+	
+
+	grid-template: 500px 500px/ 50% 50%;
+
+	grid-gap: 10px; /*adds padding of 10px between rows and columns*/
+	position: relative;
+	right: 5px;
+/*	left: 10px;*/
+}
+
+.grid3{
+	display: grid;
+	height: 20%;
+	width: 100%;
+	grid-template: 50% 50% /1fr 50% 1fr;
+	grid-gap: 30px;
+}
+
+.b{
+	grid-row-start:1;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end:3;
+}
+
+.a{
+	background-color: purple;
+	color: white;
+}
+
+.d{
+	background-color: yellow;
+	color:white;
+}
+
