@@ -14,11 +14,11 @@ function onAddStarsBtnClick() {
 
 
 /////if you need to do some text parsing 
-    var textSplit = numStars.split(" ");  
+    // var textSplit = numStars.split(" ");  
 
-    for(var i = 0; i<textSplit.length; i++){
-            console.log(textSplit[i]);
-    }
+    // for(var i = 0; i<textSplit.length; i++){
+    //         console.log(textSplit[i]);
+    // }
 
 
  
